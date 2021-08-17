@@ -1,0 +1,66 @@
+package com.pojo;
+
+import java.util.List;
+
+public class ComplexPayload {
+
+	// POJO class: plain old java object
+
+	// json object ->{} ->For every curly braces a new class
+
+	private int id;
+	private String first_name;
+	private String last_name;
+	private String email;
+	private FavFood4ComplexPayload favfood;
+	private List<String> job;
+
+	public List<String> getJob() {
+		return job;
+	}
+
+	public void setJob(List<String> job) {
+		this.job = job;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public FavFood4ComplexPayload getFavfood() {
+		return favfood;
+	}
+
+	public void setFavfood(FavFood4ComplexPayload favfood) {
+		this.favfood = favfood;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getFirst_name() {
+		return first_name;
+	}
+
+	public void setFirst_name(String first_name) {
+		this.first_name = first_name;
+	}
+
+	public String getLast_name() {
+		return last_name;
+	}
+
+	public void setLast_name(String last_name) {
+		this.last_name = last_name;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+}

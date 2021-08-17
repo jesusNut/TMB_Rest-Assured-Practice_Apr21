@@ -1,0 +1,14 @@
+{
+	"id": 14,
+	"first_name": "Amuthan",
+	"last_name": "Sakthivel",
+	"email": "checking@gmail.com",
+	"job": [
+		"tester",
+		"trainer"
+	],
+	"favfood": {
+		"breakfast": "dosa",
+		"lunch": "rice"
+	}
+}

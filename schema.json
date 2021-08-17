@@ -1,0 +1,126 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "first_name": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "first_name",
+        "last_name",
+        "email"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "first_name": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "first_name",
+        "last_name",
+        "email"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "first_name": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "first_name",
+        "last_name",
+        "email"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "last_name": {
+          "type": "string"
+        },
+        "favfood": {
+          "type": "object",
+          "properties": {
+            "lunch": {
+              "type": "string"
+            },
+            "breakfast": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "lunch",
+            "breakfast"
+          ]
+        },
+        "id": {
+          "type": "integer"
+        },
+        "job": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "first_name": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "last_name",
+        "favfood",
+        "id",
+        "job",
+        "first_name",
+        "email"
+      ]
+    }
+  ]
+}
